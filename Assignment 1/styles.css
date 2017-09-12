@@ -1,0 +1,95 @@
+body 
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+63,3ce529+96,beeebc+100 */
+    background: #eaeaea; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #eaeaea 63%, #3ce529 96%, #beeebc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #eaeaea 63%,#3ce529 96%,#beeebc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #eaeaea 63%,#3ce529 96%,#beeebc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#beeebc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    font-family: "calibri";
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.philHaibach p
+{
+    width: 400px;
+}
+
+.philHaibach .myName
+{
+    display: inline-block;
+    font-size: 50px;
+}
+
+.philHaibach .oreoImg, .farrahImg
+{
+    display: inline-block;
+}
+.philHaibach .oreoImg
+{
+    width: 200px;
+    height: 320px;
+    border: 1px solid black;
+    background-image: url(Oreo.JPG);
+    background-size: 200px 320px;
+    margin-bottom: 50px;
+}
+.philHaibach .farrahImg
+{
+    width: 200px;
+    height: 320px;
+    border: 1px solid black;
+    background-image: url(Farrah.JPG);
+    background-size: 200px 320px;
+    margin-bottom: 50px;
+}
+.philHaibach .horsesImg
+{
+    width: 320px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(Horses.JPG);
+    background-size: 320px 200px;
+    margin-bottom: 50px;
+}
+.philHaibach .bandImg
+{
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(Band.JPG);
+    background-size: 350px 200px;
+    margin-bottom: 50px;
+}
+
+.philHaibach .sports
+{
+    display: table;
+    border: 1px solid black;
+}
+
+.philHaibach .age, .sportName, .yearsPlayed
+{
+    display: inline-block;  
+}
+
+.philHaibach .age
+{
+    width: 40px;
+}
+
+.philHaibach .sportName
+{
+    width: 90px;
+}
+
+.philHaibach .yearsPlayed
+{
+    width: 90px;
+}
+
+.philHaibach ul
+{
+    margin-bottom: 50px;
+}
