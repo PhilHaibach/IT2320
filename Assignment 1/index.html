@@ -6,6 +6,9 @@
     </HEAD>
     
     <BODY>
+        
+        <script src="scripts.js"></script>
+        
         <div class="philHaibach">
             <h1>My Name is <div class="myName">Phil Haibach</div></h1>
         
@@ -21,14 +24,20 @@
                 I love animals.  I have two dogs, Oreo and Farrah.  I used to work at <a href="http://www.campbowwow.com">Camp Bow Wow</a>.
             </p>
         
-            <div class="oreoImg"></div>
-            <div class="farrahImg"></div>
+            <div class="oreoImg" onclick="ToggleDogPic()"></div>
+            
+            <div class="oreoImgCaption">Oreo!  click image to see Farrah</div>
+            
        
             <p>
                 I also like to ride horses.  Here are some of them.
             </p>
-    
-            <div class="horsesImg"></div>
+            
+            <div class="horseStuff">
+                <div class="horsesImg"></div>
+                <div class="horseInfoButton" onclick="HorseInfo()">Click here to learn more about these horses</div>
+                <div class="horseInfo"></div>
+            </div>
         
             <p>I play music with my friends.  Here we are.</p>
         
@@ -36,11 +45,11 @@
         
             <p>I like to play lots of video games.  Here are just a few of them.</p>
                 <ul>
-                    <li>Overwatch</li>
-                    <li>Destiny</li>
-                    <li>Fallout 4</li>
-                    <li>Fifa</li>
-                    <li>Smite</li>  
+                    <li onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Overwatch</li>
+                    <li onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Destiny</li>
+                    <li onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Fallout 4</li>
+                    <li onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Fifa</li>
+                    <li onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Smite</li>  
                 </ul>
             
         

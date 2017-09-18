@@ -33,7 +33,7 @@ body
     border: 1px solid black;
     background-image: url(Oreo.JPG);
     background-size: 200px 320px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .philHaibach .farrahImg
 {
@@ -42,8 +42,13 @@ body
     border: 1px solid black;
     background-image: url(Farrah.JPG);
     background-size: 200px 320px;
+    margin-bottom: 10px;
+}
+.philHaibach .oreoImgCaption, .farrahImgCaption
+{
     margin-bottom: 50px;
 }
+
 .philHaibach .horsesImg
 {
     width: 320px;
@@ -51,8 +56,14 @@ body
     border: 1px solid black;
     background-image: url(Horses.JPG);
     background-size: 320px 200px;
+}
+.philHaibach .horseStuff
+{
+    display: inline-block;
     margin-bottom: 50px;
 }
+
+
 .philHaibach .bandImg
 {
     width: 350px;
@@ -67,6 +78,7 @@ body
 {
     display: table;
     border: 1px solid black;
+    margin-bottom: 50px;
 }
 
 .philHaibach .age, .sportName, .yearsPlayed
@@ -92,4 +104,14 @@ body
 .philHaibach ul
 {
     margin-bottom: 50px;
+}
+.philHaibach li
+{
+    width: 100px;
+}
+.philHaibach .listItemHightlight
+{
+    font-style: italic;
+    font-weight: bold;
+    color: limegreen;
 }
