@@ -1,0 +1,535 @@
+body 
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+63,3ce529+96,beeebc+100 */
+    background: #eaeaea; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #eaeaea 63%, #3ce529 96%, #beeebc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #eaeaea 63%,#3ce529 96%,#beeebc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #eaeaea 63%,#3ce529 96%,#beeebc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#beeebc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    font-family: "calibri";
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.philHaibach h1
+    {
+        font-family: 'Berkshire Swash', cursive;
+    }
+.philHaibach .game
+{
+    font-family: 'Concert One', cursive;
+}
+
+
+@media screen and (min-width: 1025px)
+{
+    
+    .philHaibach p, .horseInfo
+    {
+        width: 1000px;
+    }
+    
+    .philHaibach .myName
+    {
+        display: inline-block;
+        font-size: 50px;
+    }
+
+    .philHaibach .oreoImg, .farrahImg
+    {
+        display: inline-block;
+    }
+    .philHaibach .oreoImg
+    {
+        width: 200px;
+        height: 320px;
+        border: 1px solid black;
+        background-image: url(Oreo.JPG);
+        background-size: 200px 320px;
+        margin-bottom: 10px;
+    }
+    .philHaibach .farrahImg
+    {
+        width: 400px;
+        height: 640px;
+        border: 1px solid black;
+        background-image: url(Farrah.JPG);
+        background-size: 400px 640px;
+        margin-bottom: 10px;
+        border-radius: 50px;
+        position: relative;
+        -webkit-animation-name: myAnimation1;
+        -webkit-animation-name: myAnimation2;
+        -webkit-animation-duration: 10s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        animation-name: myAnimation1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @-webkit-keyframes myAnimation1
+    {
+        0%   {transform: rotate(0deg) left:0px; top:0px;}
+        25%  {transform: rotate(20deg) left:400px; top:0px;}
+        50%  {transform: rotate(0deg) left:800px; top:0px;}
+        75%  {transform: rotate(-20deg) left:400px; top:0px;}
+        100% {transform: rotate(0deg) left:0px; top:0px;}
+    }
+    @keyframes myAnimation1
+    {
+        0%    {transform: rotate(0deg) }
+        12.5% {transform: rotate(20deg) }
+        25%   {transform: rotate(0deg) }
+        37.5% {transform: rotate(-20deg) }
+        50%   {transform: rotate(0deg) }
+        62.5% {transform: rotate(20deg) }
+        75%   {transform: rotate(0deg) }
+        87.5% {transform: rotate(-20deg) }
+        100%  {transform: rotate(0deg) }
+        0%   {left:0px; top:0px;}
+        25%  {left:400px; top:0px;}
+        50%  {left:800px; top:0px;}
+        75%  {left:400px; top:0px;}
+        100% {left:0px; top:0px;}
+    }
+
+
+    .philHaibach .horsesImg
+    {
+        margin-left: 50px;
+        width: 640px;
+        height: 400px;
+        border: 1px solid black;
+        background-image: url(Horses.JPG);
+        background-size: 640px 400px;
+        animation-name: myAnimation2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes myAnimation2
+    {
+        0%    {transform: scale(1)}
+        10%   {transform: scale(1.2)}
+        20%   {transform: scale(1)}
+        30%   {transform: scale(1.2)}
+        40%   {transform: rotate(0deg)}
+        45%   {transform: rotate(360deg)}
+        50%   {transform: scale(1)}
+        60%   {transform: scale(1.2)}
+        70%   {transform: scale(1)}
+        80%   {transform: scale(1.2)}
+        90%   {transform: rotate(0deg)}
+        95%   {transform: rotate(-360deg)}
+        100%  {transform: scale(1)}
+    }
+    
+    .philHaibach .horseStuff
+    {
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+
+
+    .philHaibach .bandImg
+    {
+        width: 700px;
+        height: 400px;
+        border: 1px solid black;
+        background-image: url(Band.JPG);
+        background-size: 700px 400px;
+        margin-bottom: 50px;
+    }
+    
+   
+    .philHaibach .overwatchLogo
+    {
+        width: 20px;
+        height: 20px;
+        background-image: url(overwatch.png);
+        background-size: 20px 20px;
+        -webkit-transition: width: .5s;
+        transition: width .5s;  
+        transition: height .5s;
+        transition: background-size .5s;
+    }
+    .overwatchLogo:hover
+    {
+        width: 200px;
+        height: 200px;
+        background-size: 200px 200px;
+    }
+    .philHaibach .destinyLogo
+    {
+        width: 20px;
+        height: 20px;
+        background-image: url(destiny.jpg);
+        background-size: 20px 20px;
+        -webkit-transition: width: .5s;
+        transition: width .5s;  
+        transition: height .5s;
+        transition: background-size .5s;
+    }
+    .destinyLogo:hover
+    {
+        width: 200px;
+        height: 200px;
+        background-size: 200px 200px;
+    }
+    .philHaibach .falloutLogo
+    {
+        width: 40px;
+        height: 10px;
+        background-image: url(Fallout_Logo.png);
+        background-size: 40px 10px;
+        -webkit-transition: width: .5s;
+        transition: width .5s;  
+        transition: height .5s;
+        transition: background-size .5s;
+    }
+    .falloutLogo:hover
+    {
+        width: 400px;
+        height: 100px;
+        background-size: 400px 100px;
+    }
+    .philHaibach .smiteLogo
+    {
+        width: 40px;
+        height: 10px;
+        background-image: url(smite%20logo.png);
+        background-size: 40px 10px;
+        -webkit-transition: width: .5s;
+        transition: width .5s;  
+        transition: height .5s;
+        transition: background-size .5s;
+    }
+    .smiteLogo:hover
+    {
+        width: 400px;
+        height: 100px;
+        background-size: 400px 100px;
+    }
+
+    
+    .philHaibach .sports
+    {
+        display: table;
+        border: 1px solid black;
+        margin-bottom: 50px;
+    }
+
+    .philHaibach .age, .sportName, .yearsPlayed
+    {
+        display: inline-block;  
+    }
+
+    .philHaibach .age
+    {
+        width: 40px;
+    }
+
+    .philHaibach .sportName
+    {
+        width: 90px;
+    }
+
+    .philHaibach .yearsPlayed
+    {
+        width: 90px;
+    }
+}
+
+@media screen and (min-width: 773px) and (max-width: 1024px)
+{
+    .philHaibach p, .horseInfo
+    {
+        width: 750px;
+    }
+    
+    .philHaibach .myName
+    {
+        display: inline-block;
+        font-size: 50px;
+    }
+
+    .philHaibach .oreoImg, .farrahImg
+    {
+        display: inline-block;
+    }
+    .philHaibach .oreoImg
+    {
+        width: 200px;
+        height: 320px;
+        border: 1px solid black;
+        background-image: url(Oreo.JPG);
+        background-size: 200px 320px;
+        margin-bottom: 10px;
+    }
+    .philHaibach .farrahImg
+    {
+        width: 360px;
+        height: 576px;
+        border: 1px solid black;
+        background-image: url(Farrah.JPG);
+        background-size: 360px 576px;
+        margin-bottom: 10px;
+    }
+
+
+    .philHaibach .horsesImg
+    {
+        width: 576px;
+        height: 360px;
+        border: 1px solid black;
+        background-image: url(Horses.JPG);
+        background-size: 576px 360px;
+    }
+    .philHaibach .horseStuff
+    {
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+
+
+    .philHaibach .bandImg
+    {
+        width: 630px;
+        height: 360px;
+        border: 1px solid black;
+        background-image: url(Band.JPG);
+        background-size: 630px 360px;
+        margin-bottom: 50px;
+    }
+
+    .philHaibach .sports
+    {
+        display: table;
+        border: 1px solid black;
+        margin-bottom: 50px;
+    }
+
+    .philHaibach .age, .sportName, .yearsPlayed
+    {
+        display: inline-block;  
+    }
+
+    .philHaibach .age
+    {
+        width: 40px;
+    }
+
+    .philHaibach .sportName
+    {
+        width: 90px;
+    }
+
+    .philHaibach .yearsPlayed
+    {
+        width: 90px;
+    }
+}
+
+
+@media screen and (min-width: 763px) and (max-width: 773px)
+{
+    .philHaibach
+    {
+        display: none;
+    }
+    
+    .boo
+    {
+        width: 300px;
+        height: 150px;
+        background-image: url(Boo.jpg);
+        background-size: 300px 150px;
+        margin: 200px;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 763px)
+{
+    .philHaibach p, .horseInfo
+    {
+        width: 460px;
+    }
+    
+    .philHaibach .myName
+    {
+        display: inline-block;
+        font-size: 50px;
+    }
+
+    .philHaibach .oreoImg, .farrahImg
+    {
+        display: inline-block;
+    }
+    .philHaibach .oreoImg
+    {
+        width: 200px;
+        height: 320px;
+        border: 1px solid black;
+        background-image: url(Oreo.JPG);
+        background-size: 200px 320px;
+        margin-bottom: 10px;
+    }
+    .philHaibach .farrahImg
+    {
+        width: 275px;
+        height: 440px;
+        border: 1px solid black;
+        background-image: url(Farrah.JPG);
+        background-size: 275px 440px;
+        margin-bottom: 10px;
+    }
+
+
+    .philHaibach .horsesImg
+    {
+        width: 440px;
+        height: 275px;
+        border: 1px solid black;
+        background-image: url(Horses.JPG);
+        background-size: 440px 275px;
+    }
+    .philHaibach .horseStuff
+    {
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+
+
+    .philHaibach .bandImg
+    {
+        width: 440px;
+        height: 250px;
+        border: 1px solid black;
+        background-image: url(Band.JPG);
+        background-size: 440px 250px;
+        margin-bottom: 50px;
+    }
+
+    .philHaibach .sports
+    {
+        display: table;
+        border: 1px solid black;
+        margin-bottom: 50px;
+    }
+
+    .philHaibach .age, .sportName, .yearsPlayed
+    {
+        display: inline-block;  
+    }
+
+    .philHaibach .age
+    {
+        width: 40px;
+    }
+
+    .philHaibach .sportName
+    {
+        width: 90px;
+    }
+
+    .philHaibach .yearsPlayed
+    {
+        width: 90px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px)
+{
+    .philHaibach p, .horseInfo
+    {
+        width: 320px;
+    }
+    
+    .philHaibach .myName
+    {
+        display: inline-block;
+        font-size: 50px;
+    }
+
+    .philHaibach .oreoImg, .farrahImg
+    {
+        display: inline-block;
+    }
+    .philHaibach .oreoImg
+    {
+        width: 200px;
+        height: 320px;
+        border: 1px solid black;
+        background-image: url(Oreo.JPG);
+        background-size: 200px 320px;
+        margin-bottom: 10px;
+    }
+    .philHaibach .farrahImg
+    {
+        width: 200px;
+        height: 320px;
+        border: 1px solid black;
+        background-image: url(Farrah.JPG);
+        background-size: 200px 320px;
+        margin-bottom: 10px;
+        margin-left: 60px;
+    }
+
+
+    .philHaibach .horsesImg
+    {
+        width: 320px;
+        height: 200px;
+        border: 1px solid black;
+        background-image: url(Horses.JPG);
+        background-size: 320px 200px;
+    }
+    .philHaibach .horseStuff
+    {
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+
+
+    .philHaibach .bandImg
+    {
+        width: 320px;
+        height: 180px;
+        border: 1px solid black;
+        background-image: url(Band.JPG);
+        background-size: 320px 180px;
+        margin-bottom: 50px;
+    }
+
+    .philHaibach .sports
+    {
+        display: table;
+        border: 1px solid black;
+        margin-bottom: 50px;
+    }
+
+    .philHaibach .age, .sportName, .yearsPlayed
+    {
+        display: inline-block;  
+    }
+
+    .philHaibach .age
+    {
+        width: 40px;
+    }
+
+    .philHaibach .sportName
+    {
+        width: 90px;
+    }
+
+    .philHaibach .yearsPlayed
+    {
+        width: 90px;
+    }
+}
+
